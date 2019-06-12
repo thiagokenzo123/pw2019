@@ -1,0 +1,83 @@
+html{
+	font-family: arial;
+}
+#A{
+	background-color: lightgray;
+	height: auto;
+	width: 90%;
+	text-align: left;
+	padding-left: 20px;
+	color: gray;
+	vertical-align: middle;
+}
+fieldset{
+	width: auto;
+	border-width: 2px;
+	border-color: lightgray;
+	text-align: left;
+}
+img{
+	width: 300px;
+	height: 300px;
+}
+#row{
+	width: 90%;
+}
+#B{
+	display: inline-block;
+	width: 20%;
+}
+#C, #D{
+	padding-left: 10px;
+	width: 39%;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+label{
+	font-size: 30px;
+}
+input[type='number'], input[type='text']{
+	width: 90%;
+    height: 40px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-color: gray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#E{
+	font-size: 35px;
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+select{
+	width: 91%;
+    height: 46px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-color: gray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+button{
+	width: 160px;
+	background-color: #008CBA;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 5px;
+}
+button[type='reset']{
+	margin-right: 55px;
+	float: right;
+	background-color: #f44336;
+}

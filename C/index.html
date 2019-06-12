@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+<form name="loljinha" method="post" action="php.php">
+<center><div id="A">
+	<br>
+	<h1>Ótima escolha!</h1>
+	Obrigado por comprar na Nintendo eShop! Preencha seus dados para efetivar a compra.
+	<br><br><br>
+</div></center>
+<br>
+<center><div classe="row" id="row">
+<div class="col-md-4" id="B">
+	<fieldset id="E">
+		<center><b>Sua compra</b></center>
+	</fieldset>
+	<fieldset>
+		<img src="NS.jpg">
+	<br><br><b>Produto</b><br>
+	Nintendo Switch Red'n Blue
+	<br><br><b>Cor</b><br>
+	Joy-con Vermelho e Azul
+	<br><br><b>Preço</b><br>
+	R$ 1500,00
+	</fieldset>
+</div>
+<div class="col-md-4" id="C">
+		<label>Dados Pessoais</label><br><br>
+		Nome Completo
+		<br><input type="text" name="nome"><br><br>
+		Email
+		<br><input type="text" name="email"><br><br>
+		CPF
+		<br><input type="number" name="cpf" max="99999999999">
+		<br><br><input type="checkbox" name="nope">Deseja receber nossas novidades e promoções?
+</div>
+<div class="col-md-4" id="D">
+		<label>Cartão de Crédito</label><br><br>
+		Número - CVV
+		<br><input type="number" name="cartao" max="9999999999999999"><br><br>
+		Bandeira
+		<br><select name="bandeira">
+			<option value="Visa">Visa</option>
+			<option value="Mastercard">Mastercard</option>
+			<option value="American Express">American Express</option>
+			<option value="Diners Club">Diners Club</option>
+		</select><br><br>
+		Validade
+		<br><input type="number" name="validade"><br><br>
+		<button type="submit">Confirmar pedido</button>
+		<button type="reset">Limpar</button>
+</div>
+</div></center>
+</body>
+</html>

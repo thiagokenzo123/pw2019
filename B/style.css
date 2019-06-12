@@ -1,0 +1,10 @@
+fieldset{
+	font-family: Arial;
+	width: 300px;
+}
+label{
+	color: red;
+}
+input[type=submit]{
+	float: right;
+}
