@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <meta charset="utf-8">
 <head>
@@ -12,7 +12,7 @@
 <?php
 echo "<center><img src='NS.jpg'/><br><br>";
 echo "Nintendo Switch Red'n Blue</center><br>";
-echo "<br><label>Dados Pessoais</label><br>";
+echo "<br><label>Dados Pessoais</label><br> ";
 echo "Seu nome: ".$_POST['nome'];
 echo "<br>Seu email: ".$_POST['email'];
 echo "<br>Seu CPF: ".$_POST['cpf'];
